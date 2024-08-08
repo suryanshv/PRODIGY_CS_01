@@ -1,0 +1,96 @@
+/* Reset some default styles */
+body, h1, h2, p, label, textarea, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Center the content and add padding */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the main heading */
+h1 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style the sub-heading */
+h2 {
+    color: #4a90e2;
+    margin-top: 20px;
+}
+
+/* Style form elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+textarea, input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Style the submit buttons container */
+.button-group {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+/* Style individual submit buttons */
+button {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background: #357abd;
+}
+
+/* Style the result section */
+.result {
+    padding: 10px;
+    background: #eaf4fc;
+    border: 1px solid #b3d4f8;
+    border-radius: 4px;
+}
