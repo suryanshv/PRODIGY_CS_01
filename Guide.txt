@@ -1,0 +1,22 @@
+# PRODIGY_CS_01
+Cesear Cipher Implementation
+
+I have created a web-based application that encrypts and decrypts text using the Caesar Cipher using flask as it is a lightweight framework for python. Flask will serve the web pages and handle user inputs, while the Caesar Cipher logic will be implemented in Python.
+
+Steps:
+1. Install flask - if you didn't have installed flask then open terminal and write - 
+'pip install flask'
+
+2. the logic for ceaser cipher is written in ceaser_cipher1.py file. it handles the flask application, Caesar Cipher logic, and handles HTTP requests.
+
+3. The HTML file is in 'templates' folder named as 'index.html'. This file defines the structure of the web page.
+
+4. The CSS file is in 'templates' folder named as 'index.html'. This file defines the structure of the web page.
+
+5. To run the application, go to the location where you have saved the file using 'cd'
+[cd "C:\Users\SURYANSH VERMA\Desktop\Prodigy\Ceaser Cipher\app.py"]
+then type 'python app.py' in terminal
+
+6. it will be running on localhost - http://127.0.0.1:5000 (you can press ctrl and right mouse button to open the link)
+
+7. It will open a page having 2 fields - message and shift key, then choose whether you want to encrypt the message or decrypt. After clicking on the button it will display the result
