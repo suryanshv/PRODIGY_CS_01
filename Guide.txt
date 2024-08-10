@@ -17,6 +17,6 @@ Steps:
 [cd "C:\Users\SURYANSH VERMA\Desktop\Prodigy\Ceaser Cipher\app.py"]
 then type 'python app.py' in terminal
 
-6. it will be running on localhost - http://127.0.0.1:5000 (you can press ctrl and right mouse button to open the link)
+6. it will be running on localhost - http://127.0.0.1:5000 (you can press ctrl and left mouse button to open the link)
 
 7. It will open a page having 2 fields - message and shift key, then choose whether you want to encrypt the message or decrypt. After clicking on the button it will display the result
